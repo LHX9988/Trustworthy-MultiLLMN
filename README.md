@@ -7,7 +7,7 @@ TeleQnA: https://huggingface.co/datasets/netop/TeleQnA
 Falcon-series LLMs: https://huggingface.co/blog/falcon#the-falcon-models
 
 ## Dataset:
-Available at hallu_train.txt and hallu_test.txt
+Available at train.json (training set) and test.json (test set)
 
 
 ## References of LLM-empowered Communications:
