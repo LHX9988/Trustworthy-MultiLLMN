@@ -1,3 +1,10 @@
-# Optimizing Generative AI Networking: A Dual Perspective with Multi-Agent Systems and Mixture of Experts
+# Hallucination-aware Optimization for Large Language Model-empowered Communications
 
-https://arxiv.org/abs/2405.12472
+## Links:
+
+TeleQnA: https://huggingface.co/datasets/netop/TeleQnA
+
+Falcon-series LLMs: https://huggingface.co/blog/falcon#the-falcon-models
+
+## Dataset:
+Available at hallu_train.txt and hallu_test.txt
