@@ -186,24 +186,36 @@ the table is acquired on a workstation with an NVIDIA A6000 GPU. N1 in the left 
 </section>
 <!-- End image carousel -->
 
-<!-- Key Contributions -->
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Key Contributions</h2>
+        <h2 class="title is-3">Tutorial: Telecom-oriented LLM with Hybrid Hallucination Mitigation</h2>
         <div class="content has-text-justified">
-          <h3 class="title is-4">Comprehensive Analysis of LLM Hallucinations</h3>
-          <p>We provide a systematic review of hallucination causes in LLM-powered communications and present detailed mitigation strategies from both model-centric and system-level perspectives.</p>
+          <h3 class="title is-4">TeleQnA-hallucination Dataset</h3>
+          <p>We establish a new hallucination dataset for Telecom based on TelecomQnA. The dataset is opensource (<a href="#" class="is-link">https://lancelot1998.github.io/Hallu/</a>). It contains 100000 items, with 8000 training samples and 2000 testing samples. Each item is formatted as:</p>
+          
+          <div class="columns is-centered">
+            <div class="column is-8">
+              <img src="static/images/YQ_add1.jpg" alt="Dataset format visualization" class="image">
+              <p class="caption has-text-centered is-size-6 mt-2">Figure 1: TeleQnA Dataset Format Structure</p>
+            </div>
+          </div>
 
-          <h3 class="title is-4">Novel Telecom Dataset</h3>
+          <h3 class="title is-4">DPO for Hallucination Mitigation</h3>
           <p>We introduce a specialized Telecom hallucination dataset and demonstrate significant improvements through direct preference optimization, achieving a 20.6% increase in correct response rates.</p>
-
-          <h3 class="title is-4">Mobile-Edge MoE Architecture</h3>
-          <p>We develop an innovative mobile-edge mixture-of-experts architecture that optimizes LLM expert activation, enhancing system performance while maintaining hallucination awareness.</p>
-
-          <h3 class="title is-4">Practical Implementation</h3>
-          <p>Our case study demonstrates the effectiveness of combining model-based fine-tuning with system-level optimizations, providing a practical framework for deploying hallucination-aware LLM systems in telecommunications.</p>
+          
+          <h3 class="title is-4">Mixture-of-Experts (MoE) for Hallucination Mitigation</h3>
+          <p>Apart from DPO, we use MoE for hallucination mitigation, especially considering other networking factors such as resource costs, service latency, etc.</p>
+          
+          <h3 class="title is-4">Results</h3>
+          <div class="columns is-centered">
+            <div class="column is-10">
+              <img src="static/images/YQ_add2.jpg" alt="Experimental results visualization" class="image">
+              <p class="caption has-text-centered is-size-6 mt-2">Figure 2: Experimental Results of DPO and MoE Performance</p>
+            </div>
+          </div>
+          <p>The experimental results demonstrate that the DPO and MoE contribute to hallucination mitigation.</p>
         </div>
       </div>
     </div>
