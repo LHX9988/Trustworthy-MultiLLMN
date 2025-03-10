@@ -23,6 +23,6 @@ A5: Y. Shen et al., "Large language models empowered autonomous edge AI for conn
 
 A6: W. Lee et al., "LLM-empowered resource allocation in wireless communications systems," arXiv: 2408.02944v1, 2024
 
-A7: G.M. Yilma at al., "TelecomRAG: Taming Telecom standards with retrieval augmented generation and LLMs," arXiv: 2406.07053, 2024
+A7: G.M. Yilma et al., "TelecomRAG: Taming Telecom standards with retrieval augmented generation and LLMs," arXiv: 2406.07053, 2024
 
-
+A8:  H. Zou et al., “Wireless multi-agent generative AI: From connected intelligence to collective intelligence,” arXiv preprint arXiv:2307.02757, 2024.
