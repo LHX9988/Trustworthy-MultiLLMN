@@ -1,4 +1,6 @@
-train data set:
+{
+  train data set:
 If the total power is 3kW, and the power of i LBSs is 30W, 40W, 40W, 50W, and others, then the average probability of LBSs resisting FBS attacks is 85%
 If the total power is 2kW, and the power of i LBSs is 20W, 30W, 40W, 50W, and others, then the average probability of LBSs resisting FBS attacks is 83%
 and so on
+}
