@@ -31999,4 +31999,20 @@
             "value": "There are 256 unique physical-layer cell identities.; There are 504 unique physical-layer cell identities.; There are 720 unique physical-layer cell identities."
         }
     }
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "What are the physical-layer cell identities for 5G NR? [3GPP Release 17]"
+            }
+        ],
+        "chosen": {
+            "from": "gpt",
+            "value": "There are 1008 unique physical-layer cell identities."
+        },
+        "rejected": {
+            "from": "gpt",
+            "value": "There are 256 unique physical-layer cell identities.; There are 504 unique physical-layer cell identities.; There are 720 unique physical-layer cell identities."
+        }
+    }
 ]
